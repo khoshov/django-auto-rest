@@ -1,0 +1,37 @@
+[
+  {
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+      "question_text": "What's up?",
+      "pub_date": "1970-01-01T16:20:00Z"
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+      "question": 1,
+      "choice_text": "Not much",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+      "question": 1,
+      "choice_text": "The sky",
+      "votes": 0
+    }
+  },
+  {
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+      "question": 1,
+      "choice_text": "Just hacking again",
+      "votes": 0
+    }
+  }
+]
